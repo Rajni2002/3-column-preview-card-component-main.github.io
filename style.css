@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+}
+html {
+  /* Primary colors */
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  /* Neutral */
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray: hsl(0, 0%, 95%);
+
+  font-size: 15px;
+  /* - Mobile: 375px
+- Desktop: 1440px */
+}
+/* General properties */
+/* Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%) */
+
+body {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+main {
+  /* width: 70vw; */
+  max-width: 60em;
+  height: auto;
+  margin-top: 10vh;
+  border-radius: 8px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
+}
+main div {
+  padding: 3rem 3rem 2rem 3rem;
+  position: relative;
+}
+main div p {
+  font-family: "Lexend Deca";
+  color: var(--Transparent-white);
+  margin-top: 2rem;
+  line-height: 1.7rem;
+  margin-bottom: 90%;
+}
+main div h1 {
+  font-family: "Big Shoulders Display";
+  color: var(--Very-light-gray);
+  margin-top: 2rem;
+}
+.sedan-card {
+  background: var(--Bright-orange);
+}
+.suvs-card {
+  background: var(--Dark-cyan);
+}
+.luxury-card {
+  background: var(--very-dark-cyan);
+}
+button {
+  position: absolute;
+  width: 10vw;
+  height: 5vh;
+  border-style: none;
+  border-radius: 40px;
+  font-family: "Lexend Deca";
+  background-color: var(--Very-light-gray);
+  bottom: 10%;
+}
+.sedan-card button {
+  color: var(--Bright-orange);
+}
+.suvs-card button {
+  color: var(--Dark-cyan);
+}
+.luxury-card button {
+  color: var(--very-dark-cyan);
+}
+.sedan-card button:active {
+  cursor: pointer;
+  color: var(--Very-light-gray);
+  background-color: var(--Bright-orange);
+  border: 2px solid var(--Very-light-gray);
+}
+.suvs-card button:active {
+  cursor: pointer;
+  color: var(--Very-light-gray);
+  background-color: var(--Dark-cyan);
+  border: 2px solid var(--Very-light-gray);
+}
+.luxury-card button:active {
+  cursor: pointer;
+  color: var(--Very-light-gray);
+  background-color: var(--very-dark-cyan);
+  border: 2px solid var(--Very-light-gray);
+}
+@media (max-width:400px) {
+    html{
+        font-size: 12px;
+    }
+    main{
+        width: 90vw;
+        flex-direction: column;
+        height: auto;
+    }
+    main div{
+        height: 55vh;
+    }
+    button{
+        width: 50%;
+    }
+}
