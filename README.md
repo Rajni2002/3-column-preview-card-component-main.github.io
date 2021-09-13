@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend](https://your-solution-url.com)
+- Solution URL: [Frontend mentor](https://www.frontendmentor.io/solutions/html5-markup-css-properties-flexbox-anddesktopfirst-workflow-gPfaE0zCZ)
 - Live Site URL: [live](https://rajni2002.github.io/3-column-preview-card-component-main.github.io/)
 
 ## My process
