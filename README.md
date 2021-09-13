@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop preview](https://github.com/Rajni2002/3-column-preview-card-component-main.github.io/blob/main/images/desktop-view.png)
 
 
 ### Links
